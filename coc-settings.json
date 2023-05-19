@@ -1,0 +1,53 @@
+{
+    "Lua.diagnostics.globals": ["vim"],
+    "Lua.workspace.library": [
+        "C:/Users/jonat/.config/nvim",
+        "C:/Users/jonat/.local/share/nvim-data/site/pack/packer/start/coc.nvim/lua",
+        "C:/Users/jonat/.local/share/nvim-data/site/pack/packer/start/neovim-session-manager/lua",
+        "C:/Users/jonat/.local/share/nvim-data/site/pack/packer/start/nightfox.nvim/lua",
+        "C:/Users/jonat/.local/share/nvim-data/site/pack/packer/start/nvim-align/lua",
+        "C:/Users/jonat/.local/share/nvim-data/site/pack/packer/start/nvim-treesitter/lua",
+        "C:/Users/jonat/.local/share/nvim-data/site/pack/packer/start/packer.nvim/lua",
+        "C:/Users/jonat/.local/share/nvim-data/site/pack/packer/start/plenary.nvim/lua"
+    ],
+    "powershell.integratedConsole.showOnStartup": false,
+    "sumneko-lua.enableNvimLuaDev": true,
+    "semanticTokens.enable": true,
+    "suggest.noselect": true,
+    "languageserver": {
+        "lsp-ahk2": {
+            "module": "C:/Users/jonat/.cache/ahk2-lsp/server/dist/server.js",
+            "filetypes": ["autohotkey"],
+            "args": ["--node-ipc"],
+            "initializationOptions": {
+                "locale": "en-us",
+                "AutoLibInclude": "Local",
+                "CommentTags": "^;;\\s*(?<tag>.+)",
+                "CompleteFunctionParens": false,
+                "Diagnostics": {
+					"ClassStaticMemberCheck": true,
+					"ParamsCheck": true
+				},
+				"ActionWhenV1IsDetected": "Continue",
+				"FormatOptions": {
+					"break_chained_methods": false,
+					"ignore_comment": false,
+					"indent_string": "    ",
+					"keep_array_indentation": true,
+					"max_preserve_newlines": 2,
+					"brace_style": "One True Brace",
+					"preserve_newlines": true,
+					"space_after_double_colon": true,
+					"space_before_conditional": true,
+					"space_in_empty_paren": false,
+					"space_in_other": true,
+					"space_in_paren": false,
+					"wrap_line_length": 0
+				},
+				"InterpreterPath": "C:/Program Files/AutoHotkey/v2/AutoHotkey.exe",
+				"WorkingDirs": [],
+				"SymbolFoldingFromOpenBrace": false
+            }
+        }
+    }
+}
